@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex flex-col md:flex-row justify-around items-center">
           <div className='flex items-center justify-between'>
           <div className='flex items-center justify-between w-full md:w-fit mr-6'>
-          <a href="/" className='absolute left-4 top-2 md:static'><img src="https://i.ibb.co/MpFwbn9/The-Hadith-Stack.png" draggablle="false" alt="Logo" className="w-16 select-none pointer-events-none rounded-lg hover:bg-red-500 duration-200" /></a>
+          <Link href="/" className='absolute left-4 top-2 md:static'><img src="https://i.ibb.co/MpFwbn9/The-Hadith-Stack.png" draggablle="false" alt="Logo" className="w-16 select-none pointer-events-none rounded-lg hover:bg-red-500 duration-200" /></Link>
           <RxHamburgerMenu onBlur={() => {setDropdown(false)}} onClick={() => {setDropdown(!dropdown)}} className='text-2xl top-5 absolute right-4 text-white md:hidden' />
           </div>
           <ul onBlur={() => {setDropdown(false)}} className={`fixed z-50 top-16 right-0 md:static flex flex-col md:flex-row text-center bg-zinc-900 md:bg-transparent space-y-2 md:space-y-0 p-4 md:p-0 rounded-lg justify-center text-white md:space-x-2 ${dropdown ? 'block' : 'hidden md:block'}`}>
