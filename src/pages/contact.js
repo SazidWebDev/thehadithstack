@@ -43,8 +43,18 @@ const Contact = () => {
       console.log(data);
       if (data.success) {
         notify('success', 'Your message has been sent successfully!');
+        setFormData({
+          email: '',
+          subject: '',
+          message: '',
+        })
       } else {
         notify('error', 'Failed to send your message. Please try again.');
+        setFormData({
+          email: '',
+          subject: '',
+          message: '',
+        })
       }
     } catch (error) {
       notify('error', 'An error occurred. Please try again.');
