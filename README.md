@@ -1,40 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TheHadithStack
 
-## Getting Started
+TheHadithStack is a project aimed at providing a comprehensive collection of Hadiths (sayings and actions of Prophet Muhammad, peace be upon him). The project is implemented using an API to make access to Hadiths easy and organized.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Hadith Collection:** : Explore a vast collection of Hadiths categorized by various criteria.
+- **Search Hadiths** : Search for Hadiths by name or chapter or number.
+- **About Books** : View information about the Hadith books.
+- **Favorites:** : Mark your favorite Hadiths for quick access.
+- **Copy Hadiths:** : Copy Hadiths for sharing.
+- **Miscellaneous:** : Much more beneficial things.
+  
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Frontend:** HTML, CSS, JavaScript, Tailwind CSS, React JS, Next JS
+- **API:** [Hadith API]
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Usage
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Browse Hadiths by category.
+- Mark your favorite Hadiths.
+- Copy Hadiths for sharing.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## API Documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+For details on the API used in this project, refer to [API Documentation Link].
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+This website, TheHadithStack, is provided for free for personal and non-commercial use only. Users are not permitted to copy, modify, or distribute the source code without explicit written permission from the project owner.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For inquiries regarding commercial use or code licensing, please contact at [subenglishschool@gmail.com](mailto:subenglishschool@gmail.com).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Acknowledgments
 
-## Deploy on Vercel
+- Special thanks to [Hadith API] for providing the Hadith data.
+- [Wikipedia](https://en.wikipedia.org) for providing data for Hadith books.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Made with ❤️ by [Muhammed Sazid Ul Bari].
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[API Documentation Link]: https://www.hadithapi.com/
+[Hadith API]: https://www.hadithapi.com/
+[Muhammed Sazid Ul Bari]: https://sazidfullstack.netlify.app
