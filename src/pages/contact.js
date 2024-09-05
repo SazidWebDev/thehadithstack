@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TextLine from '@/components/TextLine';
 import Head from 'next/head';
 import { toast } from 'react-toastify';
-import { redirect } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -27,7 +27,8 @@ const Contact = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-
+  
+  const router = useRouter();
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(formData);
@@ -57,7 +58,7 @@ const Contact = () => {
           message: '',
         })
       }
-      redirect('https://zidform.vercel.app/thanks');
+      router.replace('https://zidform.vercel.app/thanks');
     } catch (error) {
       notify('error', 'An error occurred. Please try again.');
     }
