@@ -35,7 +35,7 @@ const Contact = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': '6b2c1e7d3db0f71c4e736b5736d32fb29eb6626d'
+          'x-api-key': '3961636fe33b846546dbac83c86c8c2420465384'
         },
         body: JSON.stringify(formData),
       });
